@@ -22,4 +22,9 @@ btnRoll.addEventListener('click', function () {
   diceEl.classList.remove('hidden');
   diceEl.src = `dice-${dice}.png`;
   // 3. Check for rolled 1: if true, switch to next player
+  if (dice !== 1) {
+    // Add dice to current score
+  } else {
+    // switch to next player
+  }
 });
